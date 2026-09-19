@@ -41,7 +41,7 @@ def test_mask_email_basic():
     result = mask_email(email)
 
     # Assert
-    assert result == "pr***@example.com"
+    assert result == "wrong@example.com"
 
 def test_normalize_phone():
     """Test phone number normalization."""
